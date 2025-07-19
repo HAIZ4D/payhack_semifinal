@@ -30,10 +30,10 @@
 </head>
 <body>
 <div class="container py-4">
-    <h2 class="mb-4 text-center">🌱 EcoShop – Buy & Track Sustainability</h2>
+    <h2 class="mb-4 text-center">EcoFlow – Buy & Track Sustainability</h2>
     <div class="alert alert-success text-center">
         🌿 Your Total EcoPoints: <strong>{{ session('eco_points', 0) }}</strong>
-        <a href="{{ route('eco.redeem') }}" class="btn btn-sm btn-outline-success ms-2">🎁 Redeem</a>
+        <a href="{{ route('eco.redeem') }}" class="btn btn-sm btn-outline-success ms-2">Redeem</a>
 </div>
 
 
